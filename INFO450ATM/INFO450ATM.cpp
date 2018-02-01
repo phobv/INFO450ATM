@@ -74,16 +74,15 @@ int main()
 		if (bill1>0)
 			cout << "you have " << bill1 << " $1.00 bill(s)\n";
 
-		cout << "\nAnother withdrawl? enter Y to continue: ";
+		cout << "\nAnother withdrawl? enter Y to continue, 0 to quit: ";
 		cout << "\n";
 		cin >> answer;
 		cout << "\n\n";
 	}
-
+	
 	// Runs the program again if the user hits Y
 	while (answer == 'Y' || answer == 'y');
-
-
+	
 
 	return 0;
 }
