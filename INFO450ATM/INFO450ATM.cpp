@@ -41,6 +41,7 @@ int main()
 				cin >> input;
 			}
 
+        // Checks if input is valid
 
 		} while (input <= 0 || input >= 301);
 
